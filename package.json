@@ -2,7 +2,7 @@
   "name": "bsn",
   "version": "0.1.0",
   "main": "build/index.js",
-  "files": ["build/*"],
+  "files": ["build"],
   "repository": "git@github.com:jihchi/bsn.git",
   "author": "Jih-Chi Lee <achi@987.tw>",
   "license": "MIT",
