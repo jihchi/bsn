@@ -11,6 +11,7 @@
   "scripts": {
     "build": "neutrino build",
     "lint": "neutrino lint",
+    "prepublishOnly": "yarn build",
     "test": "neutrino test"
   },
   "devDependencies": {
