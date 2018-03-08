@@ -1,6 +1,6 @@
 {
   "name": "bsn",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "build/index.js",
   "bin": { "bsn": "build/cli.js" },
   "files": ["build"],
