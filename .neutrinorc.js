@@ -1,4 +1,10 @@
 module.exports = {
+  options: {
+    mains: {
+      index: 'index',
+      cli: 'cli',
+    },
+  },
   use: [
     '@neutrinojs/airbnb-base',
     [
