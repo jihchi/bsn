@@ -4,9 +4,23 @@ module.exports = {
     [
       '@neutrinojs/library',
       {
-        name: 'bsn'
-      }
+        name: 'bsn',
+        target: 'node',
+        libraryTarget: 'commonjs2',
+        babel: {
+          presets: [
+            [
+              'babel-preset-env',
+              {
+                targets: {
+                  node: '8.0',
+                },
+              },
+            ],
+          ],
+        },
+      },
     ],
-    '@neutrinojs/jest'
-  ]
+    '@neutrinojs/jest',
+  ],
 };
