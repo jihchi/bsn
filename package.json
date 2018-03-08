@@ -1,9 +1,13 @@
 {
   "name": "bsn",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "main": "src/index.js",
-  "bin": { "bsn": "src/cli.js" },
-  "files": ["src"],
+  "bin": {
+    "bsn": "src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
   "repository": "git@github.com:jihchi/bsn.git",
   "author": "Jih-Chi Lee <achi@987.tw>",
   "license": "MIT"
